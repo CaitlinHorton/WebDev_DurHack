@@ -1,0 +1,108 @@
+/*------ General ------*/
+* {
+    background-color: white;
+}
+
+th,
+td {
+    margin-left: 30mm;
+    margin-right: 10mm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    border-bottom: 1mm solid rgb(154, 178, 183);
+    border-top: 1mm solid rgb(154, 178, 183);
+
+    color: black;
+    text-align: center;
+    font-size: 13mm;
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.heading {
+    border-bottom: 1mm solid rgb(154, 178, 183);
+
+    color: black;
+    text-align: center;
+    font-size: 9mm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*------ Introduction Section ------*/
+#pTitle {
+    color: black;
+    text-align: center;
+    font: bold;
+    font-size: 3cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menuBar{
+    text-emphasis-color: black;
+    text-align: center;
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /*To get it to stay at the top*/
+    position: sticky;
+    top: 0px;
+
+    border-bottom: 1mm;
+    border-style: solid;
+    border-color: rgb(164, 178, 181);
+
+    a:hover {
+        color: black;
+        background-color: rgb(154, 178, 183);
+    }
+
+    a {
+        float: center;
+        display:inline-block;
+        color: black;
+        padding:10px 30px;
+    }
+
+}
+
+
+.Intro,
+.paragraph {
+    margin-left: 5mm;
+    margin-right: 30mm;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FishEagleImg {
+    margin-right: 10mm;
+    margin-left: 10mm
+}
+
+
+/*------ Apeture Section ------*/
+
+.apetureChartImg {
+    margin-left: 45mm;
+}
+
+.apetureTable {
+    /* padding-left: 10%;
+    padding-right: 20%; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.apetureTableHeading {
+    font-size: 20px;
+    text-align: left;
+}
+
+.apetureTableRow,
+.apetureTableHeading {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px dotted rgb(154, 178, 183);
+}
